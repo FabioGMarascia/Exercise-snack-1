@@ -23,12 +23,12 @@
 let number = 1;
 
 while (number < 1000) {
-	number = 2 * number;
 	if (number < 1000) {
 		console.log(number);
 	} else {
 		break;
 	}
+	number = 2 * number;
 }
 
 // // N. 4
