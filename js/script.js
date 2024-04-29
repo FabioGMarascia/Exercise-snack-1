@@ -20,14 +20,16 @@
 // alert(sum);
 
 // // N. 3
-// let i = 0;
-// let number = 1;
+let number = 1;
 
-// while (i < 10) {
-// 	number = 2 * number;
-// 	console.log(number);
-// 	i++;
-// }
+while (number < 1000) {
+	number = 2 * number;
+	if (number < 1000) {
+		console.log(number);
+	} else {
+		break;
+	}
+}
 
 // // N. 4
 // let counter = prompt(`Inserisci numero`);
@@ -49,12 +51,12 @@
 // }
 // console.log(sum);
 
-// N. 6
-let number;
+// // N. 6
+// let number;
 
-while (number != 42) {
-	number = prompt(`Inserire numero`);
-	if (number == 42) {
-		console.log(`Complimenti, è il numero giusto!`);
-	}
-}
+// while (number != 42) {
+// 	number = prompt(`Inserire numero`);
+// 	if (number == 42) {
+// 		console.log(`Complimenti, è il numero giusto!`);
+// 	}
+// }
